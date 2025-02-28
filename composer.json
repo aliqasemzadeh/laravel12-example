@@ -10,9 +10,11 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "alirahimi/livewire-persian-datepicker": "^1.2",
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1",
         "livewire/flux": "^2.0",
+        "livewire/flux-pro": "^2.0",
         "livewire/volt": "^1.6.7"
     },
     "require-dev": {
@@ -73,5 +75,15 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": {
+        "flux-pro": {
+            "type": "composer",
+            "url": "https://composer.fluxui.dev"
+        },
+        "wire-elements-pro": {
+            "type": "composer",
+            "url": "https://wire-elements-pro.composer.sh"
+        }
+    }
 }
